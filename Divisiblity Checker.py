@@ -4,7 +4,7 @@ except:
     import tkinter as tk
 import time
 
-rownum = 100
+rownum = 10000
 expand = False
 
 def disptext(text):
@@ -59,5 +59,3 @@ Expand.grid(row=0, column=2)
 Shortern = tk.Button(dc, text="S", font=("Calibri", 10), command=shortern)
 Shortern.grid(row=0, column=3)
 dc.mainloop()
-
-
